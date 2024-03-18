@@ -142,3 +142,6 @@
     transform: translateY(-83.33%);
   }
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

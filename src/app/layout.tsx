@@ -100,7 +100,7 @@ export default function RootLayout({
         >
           <main
             className={cn(
-              "flex relative screen break-words min-h-screen items-center justify-between pt-14 pb-4 container "
+              "flex relative screen break-words min-h-screen items-center justify-between  container  "
             )}
           >
             {/* NAVBAR ->  */}

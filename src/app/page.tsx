@@ -11,23 +11,25 @@ export const siteConfig = {
 };
 export default function Home() {
   return (
-    <>
+    <div className="flex w-full h-screen  ">
       {/* LEFT SIDE  */}
-      <div className=" h-full w-full flex flex-col justify-start gap-4">
-        <HeroTexts />
-        <div className="h-fit w-full p-4 flex gap-3">
-          <SocialLinks />
+      <div className="relative h-full w-full flex flex-col justify-start gap-4 pt-14 ">
+        <div className="flex-1 flex flex-col gap-16">
+          <HeroTexts />
+          <div className="h-fit w-full  flex ">
+            <SocialLinks />
+          </div>
+          <DownLoadResumeBtn />
         </div>
-        <DownLoadResumeBtn />
       </div>
       {/* RIGHT SIDE image  */}
-      <GithubBtn />
-      <div className="z-50 h-screen w-full   block max-lg:hidden ">
+      <div className="  w-full   block max-lg:hidden ">
         {/* IMAGE  */}
         <Rabbit />
+        <GithubBtn />
       </div>
 
       {/* GITHUB BUTTON  */}
-    </>
+    </div>
   );
 }
