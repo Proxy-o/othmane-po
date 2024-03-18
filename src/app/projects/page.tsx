@@ -23,6 +23,7 @@ const projectsPage = () => {
         "TailwindCSS",
       ],
       link: "https://github.com/Proxy-o/1337type",
+      preview: "https://1337type.vercel.app/",
     },
     {
       title: "DDQ 360",
@@ -31,6 +32,7 @@ const projectsPage = () => {
         "Data-Driven Quiz (DDQ) built with Next.js, Firebase, and Tailwind CSS. This dynamic platform offers users an immersive quiz experience driven by real-time data interactions. With Next.js, the frontend is sleek and responsive, adapting seamlessly to any device.",
       tags: ["Firebase", "React Query", "Typescript", "NextJs", "TailwindCSS"],
       link: "https://ddq-360.vercel.app/",
+      preview: "https://ddq-360.vercel.app/",
     },
     {
       title: "Next car",
@@ -39,6 +41,7 @@ const projectsPage = () => {
         "The project is a SaaS application designed to create invoices for clients purchasing cars from a company. With seamless integration, users can generate invoices efficiently, facilitating smooth transactions between businesses and clients.",
       tags: ["React Query", "Typescript", "NextJs", "TailwindCSS", "DarkMode"],
       link: "https://voiture-test.vercel.app/",
+      preview: "https://voiture-test.vercel.app/",
     },
   ];
 

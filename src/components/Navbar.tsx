@@ -53,9 +53,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`shadow-md fixed top-0 right-0 left-0  m-auto border-b    p-2 bg-transparent   flex-row items-center justify-center gap-3 transition ease-in-out delay-150   max-sm:gap-1 ${
-        scrolling ? "hidden" : "flex"
-      }`}
+      className={` z-50   shadow-md fixed top-0 right-0 left-0  m-auto p-2    flex-row items-center justify-center gap-3 transition ease-in-out delay-150   max-sm:gap-1 flex  border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60`}
     >
       {items.map((itm) => {
         return (
@@ -67,7 +65,7 @@ const Navbar = () => {
                   className={cn(
                     buttonVariants({ variant: "outline", size: "sm" }),
                     "flex flex-col  ",
-                    pathname === itm.link ? "bg-secondary" : ""
+                    pathname === itm.link && "border-b-4 border-b-[#2f7df4]"
                   )}
                 >
                   {itm.icon}
