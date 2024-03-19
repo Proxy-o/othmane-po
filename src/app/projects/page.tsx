@@ -40,7 +40,7 @@ const projectsPage = () => {
       description:
         "The project is a SaaS application designed to create invoices for clients purchasing cars from a company. With seamless integration, users can generate invoices efficiently, facilitating smooth transactions between businesses and clients.",
       tags: ["React Query", "Typescript", "NextJs", "TailwindCSS", "DarkMode"],
-      link: "https://voiture-test.vercel.app/",
+      link: "https://github.com/Proxy-o/voiture",
       preview: "https://voiture-test.vercel.app/",
     },
   ];
