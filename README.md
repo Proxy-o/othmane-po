@@ -2,7 +2,7 @@
 
 A simple and Beautiful Porfolio made with Nextjs and Shadcn Ui.
 
-![Demo]()
+![Demo]("https://oth-mane.vercel.app")
 
 ## Getting Started
 
