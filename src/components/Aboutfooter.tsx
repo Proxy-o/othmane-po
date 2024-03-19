@@ -19,7 +19,7 @@ const Aboutfooter = () => {
     <>
       {items.map((val, indx) => {
         return (
-          <div className="p-1 w-fit relative" key={indx}>
+          <div className="p-1 w-fit relative pb-8" key={indx}>
             <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold relative flex icon_underline max-sm:text-2xl">
               {val.icon}
               {val.name}

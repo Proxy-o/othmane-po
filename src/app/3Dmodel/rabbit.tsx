@@ -8,18 +8,19 @@ import {
   PresentationControls,
 } from "@react-three/drei";
 import Scene from "./Scene";
+import Loading from "../loading";
 
 export default function Rabbit() {
   return (
     <div className=" w-full h-full  ">
-      <Canvas>
-        <Suspense fallback={null}>
+      <Suspense fallback={<Loading />}>
+        <Canvas>
           <OrbitControls autoRotate enableZoom={false} />
           <ambientLight />
           <Scene />
           <Environment preset="studio" />
-        </Suspense>
-      </Canvas>
+        </Canvas>
+      </Suspense>
     </div>
   );
 }

@@ -17,7 +17,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL("https://othmane-po.vercel.app"),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -26,22 +26,19 @@ export const metadata: Metadata = {
 
   // added new keywords for seo
   keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
+    "ait taleb ",
+    "othmane",
+    "ait taleb ",
+    "ait taleb ",
+    "othmane",
+    "othmane",
+    " ait taleb  othmane",
+    " ait taleb  othmane",
+    "ait taleb ",
+    "ait taleb othmane",
+    "ait taleb  othmane",
+    "ait taleb  othmane",
+    "ait taleb othmane",
     "portfolio",
     "web developer",
     "web",
@@ -49,35 +46,32 @@ export const metadata: Metadata = {
     "developer",
     "PROGRAMMER ",
     "programmer ",
-    "MD TAQUI IMAM ",
+    " ait taleb  othmane ",
     "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
+    "@ait taleb othmane",
+    "ait taleb othmane",
+    "ait taleb  developer",
   ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "ait taleb  othmane",
+      url: "https://github.com/proxy-o",
     },
   ],
-  creator: "Taqui imam",
+  creator: "ait taleb  othmane",
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
     siteName: siteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
+    creator: "@ait taleb othmane14",
   },
   icons: {
     icon: "/favicon.ico",
@@ -91,7 +85,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${rubik.variable}`}>
+      <body className={`${poppins.variable} `}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

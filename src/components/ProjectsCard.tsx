@@ -24,14 +24,12 @@ const ProjectCards: React.FC<projectcardprops> = ({ value }) => {
             translateZ="50"
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
-            <Card className="w-full h-[40rem]   m-1">
+            <Card className="w-full h-[43rem]   m-1">
               <CardHeader>
                 <Image
                   src={value.img}
                   alt="project"
-                  className="border-y  mb-2 h-52 w-full hover:scale-105 hover:transition-transform duration-500"
-                  width={300}
-                  height={10}
+                  className="  mb-2 h-64 w-full hover:scale-105 hover:transition-transform duration-500"
                 />
                 <CardTitle>{value.title}</CardTitle>
               </CardHeader>

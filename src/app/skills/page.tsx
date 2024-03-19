@@ -43,7 +43,7 @@ const skillPage = () => {
         <Lightbulb className="h-5 w-5" />
         My Skills
       </Badge>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-8">
         <Heading>My Technical Experience/Skills.</Heading>
 
         <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
